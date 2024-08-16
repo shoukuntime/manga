@@ -1,0 +1,75 @@
+body {
+    font-family: '標楷體', 'Arial Narrow', Arial, sans-serif;
+    margin: auto 36px;
+}
+
+h3 {
+    background-color: rgb(214, 69, 168);
+    color: white;
+    font-weight: 700px;
+    display: flex;
+    align-items: center;
+    display: inline-block;
+    font-size: 20px;
+    margin: 0 auto;
+}
+
+iframe {
+    display: block;
+    margin: 0 auto;
+    width: 90%;
+}
+
+.title {
+    text-shadow: black 1px 0 5px;
+    color: white;
+    font-size: 48px;
+    margin: 12px auto;
+    padding: 72px;
+    border-radius: 6px;
+    background-image: url('https://images.ctfassets.net/hnoi7ctzfs57/1Xn3CgPToM5p3RIOopzPAo/48e4625470f8392939ac883315529542/______.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.comic_title {
+    display: inline-block;
+    font-size: 28px;
+    color: black;
+    background-color: rgb(212, 230, 95);
+
+}
+
+.comic_img {
+    display: inline-block;
+
+    border-radius: 20px;
+    margin: 6px auto;
+    width: 100%
+}
+
+.comic {
+    font-size: 18px;
+}
+
+.comic_watch {
+    width: 20%;
+    display: inline-block;
+}
+
+.comic_describe {
+    width: 77%;
+    display: inline-block;
+}
+
+@media screen and (max-width:1000px) {
+    .comic_describe {
+        width: 67%;
+    }
+
+    .comic_watch {
+        width: 30%;
+    }
+
+
+}
